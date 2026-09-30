@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- As estatísticas do painel MQL5 são recalculadas pelo histórico de posições fechadas para permanecerem consistentes com o Testador de Estratégia.
