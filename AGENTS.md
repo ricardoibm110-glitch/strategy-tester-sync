@@ -10,3 +10,5 @@
 <!-- LOVABLE:END -->
 
 - As estatísticas do painel MQL5 são recalculadas pelo histórico de posições fechadas para permanecerem consistentes com o Testador de Estratégia.
+- MQL5 diagnostics are opt-in configurable CSV observers of the existing strategy; capture trade events through a timer-drained queue so history selection and file writes do not slow the transaction callback.
+- Preserve versioned MQL5 source deliveries and validate with portable source checks; native compilation and execution must be verified in MetaEditor/MetaTrader, which are unavailable in this sandbox.
